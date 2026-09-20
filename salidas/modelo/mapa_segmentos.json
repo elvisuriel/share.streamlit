@@ -1,0 +1,33 @@
+{
+  "version_modelo": "1.0",
+  "fecha_entrenamiento": "2026-09-20 10:29",
+  "variables": [
+    "Recencia",
+    "Frecuencia",
+    "Valor_Monetario",
+    "Ticket_Promedio"
+  ],
+  "k": 2,
+  "silhouette": 0.3685,
+  "clientes_entrenamiento": 30,
+  "transacciones_validas": 147,
+  "fecha_corte_recencia": "2026-12-02",
+  "segmentos": {
+    "0": "Clientes de alto valor y alta frecuencia",
+    "1": "Clientes de menor actividad y valor"
+  },
+  "centroides": {
+    "0": {
+      "Recencia": 122.042,
+      "Frecuencia": 5.5,
+      "Valor_Monetario": 704.789,
+      "Ticket_Promedio": 129.625
+    },
+    "1": {
+      "Recencia": 147.833,
+      "Frecuencia": 2.5,
+      "Valor_Monetario": 155.96,
+      "Ticket_Promedio": 60.226
+    }
+  }
+}
